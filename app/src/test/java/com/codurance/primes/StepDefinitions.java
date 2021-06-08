@@ -24,5 +24,9 @@ public class StepDefinitions implements En {
     Then("I get {int}, {int}", (Integer int1, Integer int2) -> {
       assertThat(result).contains(int1, int2);
     });
+
+    Then("I get {int}, {int}, {int}", (Integer int1, Integer int2, Integer int3) -> {
+      assertThat(result).contains(int1, int2);
+    });
   }
 }

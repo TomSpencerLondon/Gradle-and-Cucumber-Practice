@@ -9,5 +9,6 @@ Feature: Calculate prime factors of a number
     Then I get <result>
     Examples:
       | number | result |
-      | 1      | 1      |
-      | 4      | 2, 2   |
+      | 3      | 2      |
+      | 4      | 2, 3   |
+      | 6      | 2, 3, 5|
